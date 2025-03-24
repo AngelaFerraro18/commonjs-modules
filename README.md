@@ -1,0 +1,3 @@
+# Node Js
+
+L'esercitazione di oggi consiste nell'esercitarsi sull'uso del terminale e di usare il CommonJS per importare ed esportare gli elementi richiesti dall'esercizio. Dovremo creare tre files js dove in due creeremo due funzioni una per restituire un oggetto contenente due proprietà, nell'altro creare una funzione che ritorni un array di stringhe. Nel terzo file dovremo importare questi elementi e creare una funzione che usi le due funzioni precedentemente create e importate.
