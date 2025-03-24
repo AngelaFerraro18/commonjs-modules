@@ -10,13 +10,17 @@
 // };
 // console.log(persona);
 
-function person(firstName, lastName){
+
+//creo una funzione che accetti due parametri e restituisce un oggetto con le proprietà firstName e lastName
+function person(firstName, lastName) {
     let completeName = {
-        nome: firstName,
-        cognome: lastName
+        firstName,
+        lastName
     }
     return completeName;
 }
 
-console.log(person('Angela', 'Ferraro'));
-
+//esporto la funzione in people.js
+module.exports = {
+    person
+};
